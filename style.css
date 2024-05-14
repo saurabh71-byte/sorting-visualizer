@@ -115,11 +115,11 @@ flex-direction: column-reverse;
     }
     .right{
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         align-items: center;
         
-        column-gap: 30%;
-        padding-left: 10px;
+/*         column-gap: 30%; */
+/*         padding-left: 10px; */
     }
     .right .speed{
         padding-bottom: 7%;
@@ -136,7 +136,7 @@ flex-direction: column-reverse;
     }
     .right-top .heading{
         height: 15%;
-        font-size: 40px;
+        font-size: 1.8em;
 
     }
     #button_algo{
@@ -150,7 +150,7 @@ flex-direction: column-reverse;
     flex-direction: row;
    }
  .btn{
-    padding: 8px 18px;
+padding: .4em 1.2em;
    }
  
    
