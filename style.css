@@ -90,3 +90,63 @@ body {
 #Time_Complexity_Types_Container {
   padding-bottom: 20px;
 }
+    
+@media (max-width:576px) {
+    body,html
+    {
+        height: 100vh;
+        width: 100vw;
+        /* background-color: chartreuse; */
+    }
+    #header-top{
+
+height: 30vh;
+width: 100%;
+background-color: #51459b;
+display: grid;
+grid-template-columns: 1% 98% 1%;
+    }
+    .container{
+/* background-color: aqua; */
+
+height: 70vh;
+display: flex;
+flex-direction: column-reverse;
+    }
+    .right{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        
+        column-gap: 30%;
+        padding-left: 10px;
+    }
+    .right .speed{
+        padding-bottom: 7%;
+    }
+    .right-top{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #button_algo{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-top .heading{
+        height: 15%;
+        font-size: 40px;
+
+    }
+    #button_algo{
+        border: none;
+       display: grid;
+       grid-template-columns: 50% 50%;
+    }
+   .container .left{
+    display: flex;
+    flex-direction: row;
+   }
+   
+}
