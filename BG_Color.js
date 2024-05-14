@@ -18,27 +18,5 @@ function changeDivBackgroundColor() {
 
 
 
-// div colour
-  function changeBarColor() {
-    // Array of high contrast light colors
-    const lightColors = ['#ffffff', '#f5f5f5', '#f0f0f0', '#fafafa', '#fcfcfc', '#fefefe', '#fbfbfb'];
-  
-    // Get a random index from the lightColors array
-    const randomIndex = Math.floor(Math.random() * lightColors.length);
-  
-    // Get the div element
-    // const div = document.getElementById('changeDiv');
-  
-    // Set the background color of the div to the randomly selected light color
-    main.style.color = lightColors[randomIndex];
-  }
-  
-  // Add event listener to the button
-  const bar_button = document.getElementById('changeBarColor');
-  bar_button.addEventListener('click', ()=>
-{
-    console.log("inside bar color chnage function");
-    changeBarColor();
-});
-  
+
   
