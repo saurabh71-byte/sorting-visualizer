@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-top">
+            
+        </div>
+        <div class="right-top">
+            <h3 class="heading">Sorting visualizer</h3>
+            <div class="btn" id="button_algo">
+            <button id="changeButton" class="btn">Background Color </button>
+            <button id="btn" class="btn">New array</button>
+            <Button id="bubble" class="btn">Bubble</Button>
+            <Button id="selection" class="btn">Selection</Button>
+            <Button id="insertion" class="btn">Insertion</Button>
+            <Button id="merge" class="btn">Merge</Button>
+            <Button id="quick" class="btn">Quick</Button>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <!-- <p>Time complexity</p> -->
+            <h2 class="name"></h2>
+            
+            <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
+                <h3>TIME COMPLEXITY</h3>
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Time_Worst"></p>
+                </div>
+                
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Average case:</p>
+                    <p id="Time_Average"></p>
+                </div>
+                
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Best case:</p>
+                    <p id="Time_Best"></p>
+                </div>
+
+            </div>
+            <div class="Complexity_Containers" id="Space_Complexity_Types_Container">
+                <h3>SPACE COMPLEXITY</h3>
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Space_Worst"></p>
+                </div>
+                
+        </div>
+        </div>
+        
+        <div class="main">hello</div>
+        <div class="right">
+        
+        <div class="size">
+            <p>Size of the array</p>
+            <input id="array_size" type="range" min="20" max="150" step="1" value="80">
+        </div>
+        <div class="speed">
+            <p>Speed of algorithm</p>
+            <input id="array_speed" type="range" min="1" max="5" step="1"  value="4">
+        </div>
+    </div>
+
+    
+
+
+    <script src="main.js"></script>
+    <script src="vizualization.js"></script>
+    <script src="BubbleSort.js"></script>
+    <script src="SelectionSort.js"></script>
+    <script src="InsertionSort.js"></script>
+    <script src="Merge_sort.js"></script>
+    <script src="QuickSort.js"></script>
+    <script src="BG_Color.js"></script>
+    
+</body>
+</html>
